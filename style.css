@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700,800&display=swap');
+
+/* CSS below is to reset default values such as margin, padding and box-sizing
+    and increase the resolution of the text */
 * {
     margin: 0;
     padding: 0;
@@ -9,5 +13,21 @@
   }
   
   body {
-    
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+  }
+
+  h1 {
+
+  }
+
+  h2 {
+
+  }
+
+
+  /* ---------- DESKTOP STYLING ---------- */
+  @media (min-width: 1024px) {
+      h1 {
+
+      }
   }
